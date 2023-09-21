@@ -1,0 +1,54 @@
+body {
+  /* border: 1px solid rgb(241, 5, 5);
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box; */
+}
+
+.container {
+  border: 3px solid rgba(4, 79, 199, 0.833);
+  display: flex;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  min-width: 500px;
+  max-width: 3000px;
+}
+
+/* 화면 좌측영역 전체 */
+.stuedentArea {
+  border: 10x solid rgb(255, 0, 0);
+  width: 1000px;
+}
+
+.print {
+  border: 1px solid black;
+  
+  min-height: 100px;
+}
+
+.CodeInput {
+  border: 1px solid black;
+  min-height: 100px;
+}
+
+/* 화면 우측영역 전체 */
+.providedArea {
+  border: 1px solid black;
+}
+
+
+.info {
+  min-width:200px;
+}
+
+
+/* 화면상단모음 */
+.CodeInputHead {
+}
+
+.printHead {
+}
+
+.infoHead {
+}
